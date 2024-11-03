@@ -20,7 +20,7 @@ git clone https://github.com/ayshrv/gmrw/
 ```
 conda create -y -n gmrw python=3.9
 conda install -y pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-conda install -y -c conda-forge tensorflow tensorflow-datasets opencv
+conda install -y -c conda-forge tensorflow-datasets==4.8.3 opencv
 python -m pip install kornia==0.6.3 scikit-image==0.18.3
 ```
 
