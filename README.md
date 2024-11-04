@@ -55,11 +55,11 @@ Pretrained models on Kubric and Kinetics can be downloaded from [this link](http
 
 To evaluate the model trained with Kubric dataset on Tap-Vid-DAVIS.
 ```
-bash experiments/eval_kinetics_trained_davis.sh
+bash experiments/eval_kubric_trained_davis.sh
 ```
 To evaluate using upsampled images on Tap-Vid-DAVIS. Use this to replicate the best numbers in the paper.
 ```
-bash experiments/eval_kinetics_trained_davis.sh
+bash experiments/eval_kubric_trained_davis.sh
 ```
 
 - To evalute on Tap-Vid-Kubric, use [eval_kubric_trained_kubric.sh](experiments/eval_kubric_trained_kubric.sh) and [eval_kubric_trained_kubric_upsampled.sh](experiments/eval_kubric_trained_kubric_upsampled.sh)
